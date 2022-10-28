@@ -1,0 +1,7 @@
+<h1>View Product List </h1>
+<button (click)="getProducts()"> Get Products</button>
+<app-data-tbl [dataVal]="empData" (counterValue)="updateCounter($event)"></app-data-tbl>
+ <p>
+    (this is parent component)value from child component - {{childCounterVal}}
+
+ </p>
